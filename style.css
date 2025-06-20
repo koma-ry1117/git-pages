@@ -217,7 +217,7 @@ body::before {
 @media (max-width: 480px) {
 	.hero-title {
 		font-size: 1.8rem;
-	}
+}
 
 	.hero-subtitle {
 		font-size: 0.9rem;
