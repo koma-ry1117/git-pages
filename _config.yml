@@ -1,0 +1,127 @@
+# Site settings
+title: 私の経験と成長 - My Portfolio
+email: r.kono17y204@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  多様な経験から学んだ価値と成長の軌跡。マクドナルドでのリーダーシップ、
+  アプリケーション開発、起業への挑戦、ボランティア活動などを通じて培った
+  問題解決能力と継続力を紹介するポートフォリオサイトです。
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Author information
+author:
+  name: 小松原遼羽
+  email: r.kono17y204@gmail.com
+
+# Social Links (Optional)
+github_username: rkono17y204
+# twitter_username: your-twitter-username
+# linkedin_username: your-linkedin-username
+
+# Theme Selection
+# GitHub Pages supported themes - uncomment one to use:
+
+# Option 1: Minimal theme (clean and simple)
+# theme: minima
+
+# Option 2: Cayman theme (clean with header)
+# remote_theme: pages-themes/cayman@v0.2.0
+
+# Option 3: Architect theme (modern design)
+# remote_theme: pages-themes/architect@v0.2.0
+
+# Option 4: Leap Day theme (green and modern)
+# remote_theme: pages-themes/leap-day@v0.2.0
+
+# Option 5: Midnight theme (dark theme)
+# remote_theme: pages-themes/midnight@v0.2.0
+
+# Option 6: Modernist theme (clean and minimal)
+# remote_theme: pages-themes/modernist@v0.2.0
+
+# Option 7: Slate theme (dark theme with sidebar)
+# remote_theme: pages-themes/slate@v0.2.0
+
+# Option 8: Tactile theme (clean with navigation)
+# remote_theme: pages-themes/tactile@v0.2.0
+
+# Option 9: Time Machine theme (retro style)
+# remote_theme: pages-themes/time-machine@v0.2.0
+
+# Currently active theme (uncomment to enable)
+remote_theme: pages-themes/cayman@v0.2.0
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Page-specific settings
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
+# Custom variables
+custom:
+  # ヒーローセクションの設定
+  hero:
+    title: "私の経験と成長"
+    subtitle: "多様な経験から学んだ価値と成長の軌跡"
+
+  # 経験セクションの設定
+  experiences:
+    - title: "マクドナルド"
+      subtitle: "リーダーシップ・問題解決能力"
+      featured: true
+    - title: "アプリケーション開発"
+      subtitle: "技術力・論理的思考"
+      featured: true
+    - title: "起業"
+      subtitle: "チャレンジ精神・学習能力"
+      featured: true
+    - title: "ボランティア経験"
+      subtitle: "共感力・協調性"
+      featured: true
+    - title: "中学サッカー部"
+      subtitle: "継続力・目標達成"
+      featured: true
+
+# 日本語設定
+lang: ja
+locale: ja_JP
+
+# GitHub Pages設定
+github: [metadata]
+
+# SEO設定
+google_analytics: # GA4 measurement ID (optional)
+google_site_verification: # Google Search Console verification (optional)
+
+# コメント設定 (optional)
+# disqus:
+#   shortname: your-disqus-shortname
+
+# 最終更新日を表示
+show_updated: true
