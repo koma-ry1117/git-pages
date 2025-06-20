@@ -1,15 +1,91 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>My First Web App</title>
-    <link href='style.css'
-     rel='stylesheet' type='text/css'>
-  </head>
-  <body>
-    <h1>My First Heading</h1>
-    <p>My first paragraph.</p>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/2vuEQkLG31w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <img src="img_girl.jpeg" alt="Girl in a jacket" width="500" height="600">
-  </body>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自己PR - My Portfolio</title>
+    <link href='style.css' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="hero-section">
+            <div class="hero-content">
+                <h1 class="hero-title">私の経験と成長</h1>
+                <p class="hero-subtitle">多様な経験から学んだ価値と成長の軌跡</p>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <section class="experience-card">
+                <div class="card-header">
+                    <h2 class="card-title">マクドナルド</h2>
+                    <span class="card-subtitle">リーダーシップ・問題解決能力</span>
+                </div>
+                <div class="card-content">
+                    <p>高校2年の11月から現在までマクドナルドでアルバイトをしており、マネージャーとして時間帯責任者を務めています。</p>
+                    <p>主な業務は、お客様対応、クルーの指導、店舗運営全般です。例えば、ピーク時にお客様のクレームと商品の在庫切れが同時に発生した際には、迅速に状況を把握し、クルーの役割を再配置するとともにお客様へ丁寧な説明を行うことで、混乱を最小限に抑え、店舗の円滑な運営を維持しました。</p>
+                    <p>また、新人クルーに対しては、個々の習熟度に合わせたティーチングと、モチベーション向上を意識したコーチングを実践しました。</p>
+                    <p class="highlight">この経験から、予期せぬ事態にも冷静に対応する問題解決能力と、多様なメンバーをまとめて目標達成に導くリーダーシップを培いました。</p>
+                </div>
+            </section>
+
+            <section class="experience-card">
+                <div class="card-header">
+                    <h2 class="card-title">アプリケーション開発</h2>
+                    <span class="card-subtitle">技術力・論理的思考</span>
+                </div>
+                <div class="card-content">
+                    <p>業務委託として、Next.js、生成AI、AIエージェントを用いたアプリケーション開発に携わりました。</p>
+                    <p>開発初期に、ライブラリ間のバージョン不整合により原因不明のエラーに直面しましたが、公式ドキュメントの精読、関連コミュニティでの情報収集、段階的な切り分けテストを粘り強く行うことで、根本原因を特定しました。</p>
+                    <p>最終的に代替ライブラリの導入とコード修正により問題を解決し、アプリケーションを正常に動作させることができました。また、開発効率向上のため、AIへの指示の出し方や情報抽出の精度を高める手法を常に模索しました。</p>
+                    <p>AIを用いた開発手法は現在とても注目されています。これをいち早く実践し、プロジェクトへの導入を行いました。</p>
+                    <p class="highlight">この経験から、複雑な問題に対しても多角的なアプローチで原因を究明し解決する能力と、新しい技術を積極的に学び活用していく情報収集・活用能力が向上したと実感しています。</p>
+                </div>
+            </section>
+
+            <section class="experience-card">
+                <div class="card-header">
+                    <h2 class="card-title">起業</h2>
+                    <span class="card-subtitle">チャレンジ精神・学習能力</span>
+                </div>
+                <div class="card-content">
+                    <p>起業への挑戦として、八王子DXコンテストに参加し、サービスをゼロから企画・開発しました。</p>
+                    <p>最終発表ではプロトタイプを提示しましたが、実際のサービス化には至りませんでした。原因は、アプリケーションの技術的な完成度に注力するあまり、解決すべきDXの課題（例：ターゲットとしていた企業の具体的な業務効率化ニーズ）の深掘りが不十分で、市場の真の需要を見誤ってしまった点にあると分析しています。</p>
+                    <p class="highlight">この経験から、プロダクト開発においては技術力だけでなく、徹底した顧客理解と課題設定が不可欠であること、そしてリーンな仮説検証を繰り返すことの重要性を痛感しました。この学びは、今後のプロジェクト推進において常に意識していきたいと考えています。</p>
+                </div>
+            </section>
+
+            <section class="experience-card">
+                <div class="card-header">
+                    <h2 class="card-title">ボランティア経験</h2>
+                    <span class="card-subtitle">共感力・協調性</span>
+                </div>
+                <div class="card-content">
+                    <p>学生時代に社会との多様な接点を持ちたいと考え、地域の子供向けイベントの運営ボランティアに2日間参加しました。</p>
+                    <p>当初は運営の裏側への興味から参加しましたが、活動を通じて、イベントを心から楽しみにしている子供たちの笑顔や、限られたリソースの中でイベントを成功させようと尽力する主催者の方々の熱意に直接触れることができました。</p>
+                    <p class="highlight">この経験から、相手の立場や状況を想像し、期待されている役割を能動的に果たすことの大切さを学びました。また、異なる背景を持つ人々と協力して一つの目標に向かう喜びも実感できました。</p>
+                </div>
+            </section>
+
+            <section class="experience-card">
+                <div class="card-header">
+                    <h2 class="card-title">中学サッカー部</h2>
+                    <span class="card-subtitle">継続力・目標達成</span>
+                </div>
+                <div class="card-content">
+                    <p>中学時代のサッカー部では、同学年で唯一の未経験者としてスタートしました。</p>
+                    <p>当初はリフティングも5回程度でしたが、3年次にはレギュラーになるという目標を掲げ、練習に取り組みました。具体的には、全体練習中に他のメンバーより強度を高めた練習を行い、特に苦手だった基礎技術の反復練習と、先輩のプレーを観察し技術を盗むことに注力しました。</p>
+                    <p>その結果、3年次にはレギュラーの座を獲得し、リフティングも1000回以上できるようになりました。</p>
+                    <p class="highlight">この経験から、困難な目標に対しても、具体的な計画と地道な努力を継続することで必ず成果に繋がるという強い信念を持つようになりました。この目標達成に向けた継続力は、大学での研究活動や現在のアルバイトでも活きています。</p>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>多様な経験から学んだ価値を活かし、新たな挑戦に向かって成長し続けます。</p>
+        </footer>
+    </div>
+</body>
 </html>
 
