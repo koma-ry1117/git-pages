@@ -22,8 +22,8 @@ github_username: rkono17y204
 # Theme Selection
 # GitHub Pages supported themes - uncomment one to use:
 
-# Option 1: Minimal theme (clean and simple)
-# theme: minima
+Option 1: Minimal theme (clean and simple)
+theme: minima
 
 # Option 2: Cayman theme (clean with header)
 # remote_theme: pages-themes/cayman@v0.2.0
